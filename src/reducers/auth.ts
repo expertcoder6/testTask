@@ -17,7 +17,7 @@ export const authReducer = createReducer(authInitailsState, {
       loginSuccess: action.payload,
       logoutSuccess: false,
     };
-  },
+  }, 
 
   /*-------- logout ----------*/
   [types.LOGOUT_SUCCESS](state: any, action: any) {
